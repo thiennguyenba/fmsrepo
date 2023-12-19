@@ -1,0 +1,134 @@
+﻿/*begin scrollbar*/
+::-webkit-scrollbar {
+    padding: 2px;
+    width: 10px;
+    height:10px;
+    /* 1px wider than Lion. */
+    /* This is more usable for users trying to click it. */
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 100px;
+}
+    /* hover effect for both scrollbar area, and scrollbar 'thumb' */
+
+    ::-webkit-scrollbar:hover {
+        /*padding: 4px;*/
+        width: 10px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+/* The scrollbar 'thumb' ...that marque oval shape in a scrollbar */
+
+::-webkit-scrollbar-thumb:vertical {
+    /* This is the EXACT color of Mac OS scrollbars.
+        Yes, I pulled out digital color meter */
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 100px;
+}
+
+    ::-webkit-scrollbar-thumb:vertical:active {
+        background: rgba(0, 0, 0, 0.56);
+        /* Some darker color when you click it */
+        -webkit-border-radius: 100px;
+    }
+
+::-webkit-scrollbar-thumb:horizontal {
+    /* This is the EXACT color of Mac OS scrollbars.
+        Yes, I pulled out digital color meter */
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 100px;
+}
+
+    ::-webkit-scrollbar-thumb:horizontal:active {
+        background: rgba(0, 0, 0, 0.56);
+        /* Some darker color when you click it */
+        -webkit-border-radius: 100px;
+    }
+
+@-moz-document url-prefix() {
+
+    * {
+        scrollbar-width: thin;
+    }
+}
+
+/*end scrollbar*/
+.x-grid-item {
+    font-weight: 400 !important;
+}
+
+.x-row-numberer .x-column-header-text {
+    min-width: 10px;
+}
+
+.xReadOnly input {
+    background: #F8F8F8 !important;
+}
+
+.xReadOnly textarea {
+    background: #F8F8F8 !important;
+}
+.xReadOnly .x-form-display-field {
+    color: #999999 !important;
+}
+
+
+.x-panel-header-default {
+    background-color: #F8F8F8;
+}
+
+.x-title-text {
+    color: #4D4D4D !important;
+}
+
+
+    .x-window-header-default {
+    background-color: #F8F8F8 !important;
+    border-color: #D0D0D0 !important;
+}
+
+
+
+.x-window-default {
+    border-color: #D0D0D0 !important;
+}
+
+/*btnSegmented */
+.btnSegmented {
+    border-radius: 12px !important;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #9f9f9f !important;
+}
+    .btnSegmented x-btn-icon-el::before {
+        color: #fff;
+    }
+.btnSegmentedSuccess.x-btn-pressed {
+    background-color: #4caf50 !important;
+    border: #4caf50 !important;
+}
+
+.btnSegmentedInfo.x-btn-pressed {
+    background-color: #5fa2dd !important;
+    border: #5fa2dd !important;
+}
+
+.btnSegmentedDanger.x-btn-pressed {
+    background-color: #ff5252 !important;
+    border: #ff5252 !important;
+}
+
+.btnSegmentedPrimary.x-btn-pressed {
+    background-color: #2d6ca2 !important;
+    border: #2d6ca2 !important;
+}
+
+.btnSegmentedWarning.x-btn-pressed {
+    background-color: #f0ad4e !important;
+    border: #f0ad4e !important;
+}
+
+legend {
+     margin-bottom: 0px !important; 
+}

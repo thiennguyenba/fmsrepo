@@ -1,0 +1,159 @@
+﻿/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 3.1
+	Author: GeeksLabs
+	Author URL: http://www.themeforest.net/user/geekslabs
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/*html,
+body {
+    height: 100%;
+}
+
+#loginregion {
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+
+#login-page {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #FF1744;
+    box-shadow: 0 1px 0 0 #FF1744;
+}
+
+    input[type=text]:focus:not([readonly]) + label,
+    input[type=password]:focus:not([readonly]) + label,
+    input[type=email]:focus:not([readonly]) + label,
+    input[type=url]:focus:not([readonly]) + label,
+    input[type=time]:focus:not([readonly]) + label,
+    input[type=date]:focus:not([readonly]) + label,
+    input[type=datetime-local]:focus:not([readonly]) + label,
+    input[type=tel]:focus:not([readonly]) + label,
+    input[type=number]:focus:not([readonly]) + label,
+    input[type=search]:focus:not([readonly]) + label,
+    textarea.materialize-textarea:focus:not([readonly]) + label {
+        color: #FF1744;
+    }
+
+.input-field .prefix.active {
+    color: #FF1744;
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.offset-l12 {
+        margin-left: 120%;
+    }
+
+    #loginregion {
+        margin-right: 100px;
+    }
+}*/
+body {
+    height: 100%;
+}
+
+#loginregion {
+    height: 100%;
+}
+
+#logincol {
+    height: 100%;
+}
+
+#logincontainer {
+    height: 100%;
+}
+
+#login-page {
+    height: 100%;
+}
+#imglogin {
+    width:60%;
+}
+@media (orientation: landscape) {
+    /*.logowms {
+        float: left;
+        width: 250px;
+        height: 48px;
+        position: fixed;
+        background: url("../../../images/logo_0.png") no-repeat;
+        margin-left: 20px;
+        top: 10px;
+        display:none;
+    }*/
+    .footers {
+        position: fixed;
+        margin-top: -20px;
+        height: 20px;
+        clear: both;
+        background: #000;
+        opacity: 0.7;
+        color: #FFF;
+        text-align: center;
+        font-size: 11px;
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    .footers {
+        position: fixed;
+        margin-top: -40px;
+        height: 40px;
+        clear: both;
+        background: #000;
+        opacity: 0.7;
+        color: #FFF;
+        text-align: center;
+        font-size: 11px;
+        width: 100%;
+    }
+}
+
+/*.powerbysino {
+    width: 74px;
+    height: 30px;
+    background: url(../../../images/powerby_small.png) no-repeat;
+    margin-left: 11px;
+}*/
+
+/*body {
+    background: rgba(0,0,0,.12) !important;
+}*/
+
+#unlicensed {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/*@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (orientation:landscape) {
+    html {
+        background: url("https://sinoautoid.github.io/frontendlibs/Images/CGS/bg.jpg") no-repeat fixed center center / cover transparent !important;
+    }
+
+    body {
+        background: rgba(0,0,0,.22);
+    }
+}
+
+@media all and (orientation:portrait) {
+    html {
+        background: url("https://sinoautoid.github.io/frontendlibs/Images/CGS/iphone1.jpg") no-repeat fixed center center / cover transparent !important;
+    }
+}
+
+@media all and (orientation:landscape) {
+    html {
+        background: url("https://sinoautoid.github.io/frontendlibs/Images/CGS/bg.jpg") no-repeat fixed center center / cover transparent !important;
+    }
+}*/
